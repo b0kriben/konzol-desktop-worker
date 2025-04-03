@@ -25,3 +25,5 @@
         <ContentControl Content="{Binding ManagementVM}"/>
     </StackPanel>
 </Window>
+
+    
