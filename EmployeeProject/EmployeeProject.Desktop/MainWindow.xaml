@@ -21,8 +21,8 @@
         </DataTemplate>
     </Window.Resources>
     <StackPanel>
-        <ContentControl Content="{Binding ControlPanelVM}"/>
-        <ContentControl Content="{Binding ManagementVM}"/>
+        <ContentControl Content="{Binding ControlPanelViewModel}"/>
+        <ContentControl Content="{Binding EmployeeManagementViewModel}"/>
     </StackPanel>
 </Window>
 

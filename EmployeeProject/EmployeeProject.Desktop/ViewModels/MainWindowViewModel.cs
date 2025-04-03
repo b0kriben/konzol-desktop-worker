@@ -5,13 +5,13 @@ namespace EmployeeProject.Desktop.ViewModels
 {
     public partial class MainWindowViewModel : ObservableObject
     {
-        public ControlPanelViewModel ControlPanelVM { get; set; }
-        public EmployeeManagementViewModel ManagementVM { get; set; }
+        public ControlPanelViewModel ControlPanelViewModel { get; set; }
+        public EmployeeManagementViewModel EmployeeManagementViewModel { get; set; }
 
         public MainWindowViewModel()
         {
-            ControlPanelVM = new ControlPanelViewModel();
-            ManagementVM = new EmployeeManagementViewModel();
+            ControlPanelViewModel = new ControlPanelViewModel();
+            EmployeeManagementViewModel = new EmployeeManagementViewModel();
         }
     }
 }
